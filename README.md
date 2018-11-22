@@ -1,2 +1,2 @@
 # extjs-mvc-desktop
-An implementation of the extjs desktop to use the MVC pattern
+An implementation of the extjs desktop that uses the MVC MVVM design pattern
