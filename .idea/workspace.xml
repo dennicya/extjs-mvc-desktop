@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="448b5b61-11ab-4ee4-acb5-0a4ea3f77d91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/BaseController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/Viewport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/local/common/src/desktop/Desktop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/local/common/src/desktop/ShortcutModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/local/common/src/desktop/TaskBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/local/common/src/desktop/TopBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/local/common/src/desktop/Wallpaper.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store/Personnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/main/MainController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/main/MainModel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/MvcDesktop-all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/MvcDesktop-all_1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/MvcDesktop-all_2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/Read Me.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/demo-files/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/demo-files/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/fonts/ext-watermark.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/fonts/ext-watermark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/fonts/ext-watermark.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/fonts/ext-watermark.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/selection.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/ext/ext-watermark/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/font-ext/fonts/ExtJS.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/font-ext/fonts/ExtJS.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/font-ext/fonts/ExtJS.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/font-ext/fonts/ExtJS.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-arrow-open-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-arrow-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-scroll-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-scroll-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow-open-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow-over-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow-over.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/breadcrumb/default-split-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-large-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-medium-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-small-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-large-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-medium-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/default-toolbar-small-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/grid-cell-small-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/grid-cell-small-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/grid-cell-small-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/grid-cell-small-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/grid-cell-small-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-large-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-medium-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-s-arrow-b-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-s-arrow-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-s-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/button/plain-toolbar-small-s-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/datepicker/arrow-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/datepicker/arrow-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/datepicker/month-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/dd/drop-add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/dd/drop-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/dd/drop-yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/editor/tb-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/fieldset/collapse-tool.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/checkbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/clear-trigger-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/clear-trigger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/date-trigger-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/date-trigger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/exclamation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/radio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/search-trigger-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/search-trigger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/spinner-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/spinner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/tag-field-item-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/trigger-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/form/trigger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/col-move-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/col-move-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/columns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/dd-insert-arrow-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/dd-insert-arrow-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/dirty-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/dirty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/drop-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/drop-yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/filters/equals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/filters/find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/filters/greater_than.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/filters/less_than.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/group-by.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/group-collapse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/group-expand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/hd-pop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/hmenu-asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/hmenu-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/hmenu-lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/hmenu-unlock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/page-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/page-last.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/page-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/page-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/pick-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/grid/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/loadmask/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/magnify.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-group-checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-menu-parent-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-menu-parent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-menubar-menu-parent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-scroll-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-scroll-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/menu/default-unchecked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/shared/icon-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/shared/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/shared/icon-question.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/shared/icon-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/e-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/ne-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/nw-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/s-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/se-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/sizer/sw-handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/slider/slider-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/slider/slider-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/slider/slider-v-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/slider/slider-v-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-more-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-more-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-scroll-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-scroll-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-scroll-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-plain-scroll-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-scroll-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-scroll-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-scroll-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab-bar/default-scroll-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tab/tab-default-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-more-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-scroll-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-scroll-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-scroll-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/default-scroll-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/footer-more-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/footer-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/footer-scroll-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/toolbar/footer-scroll-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tools/tool-sprites-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tools/tool-sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/arrows-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-above.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-append.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-below.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-between.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-between.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-over.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-under.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-under.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/drop-yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end-minus-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end-plus-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-end.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-line-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-minus-nl-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-minus-nl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-minus-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-plus-nl-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-plus-nl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-plus-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/elbow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/folder-open-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/folder-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/folder-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/leaf-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/leaf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/tree/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/util/splitter/mini-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/util/splitter/mini-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/util/splitter/mini-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/util/splitter/mini-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/window/toast/fade-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/window/toast/fader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/window/toast/icon16_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/classic/resources/images/window/toast/icon16_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/MvcDesktop-all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/css-vars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/Read Me.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/demo-files/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/demo-files/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/fonts/ext-watermark.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/fonts/ext-watermark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/fonts/ext-watermark.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/fonts/ext-watermark.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/selection.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/ext/ext-watermark/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/font-ext/fonts/ExtJS.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/font-ext/fonts/ExtJS.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/font-ext/fonts/ExtJS.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/font-ext/fonts/ExtJS.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/MaterialIcons-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/roboto/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/clear_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/disclosure.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/disclosure2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/dotgrid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/action.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/add1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/add_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/address_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/at.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/atom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/attachment2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/attachment3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/attachment_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/backspace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/battery_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/battery_low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/battery_power.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bolt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bolt_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bookmark1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bookmark2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bookmark_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bookmarks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/briefcase1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/briefcase2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/brightness1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/brightness2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/broadcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bulb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bullseye1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/bullseye2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/calendar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/calendar_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/card1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/card2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chart1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chart2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chart3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/chat_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/check1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/check2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/check_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/check_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/check_dotted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/circle2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/circle3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/circle4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/clash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud_black_upload1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud_black_upload2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud_bolt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cloud_download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/code1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/code2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/code3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compass1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compass2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compass3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compose1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compose2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compose3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/compose_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/contract.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/cube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/delete1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/delete_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/delete_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_black_landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_compose1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_compose2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_drawer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/doc_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/docs1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/docs2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/docs_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/docs_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/download1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/download2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/download_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/eject.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/empty1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/empty2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/equalizer1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/equalizer2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/event_complete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/expand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/favorites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/favorites1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/favorites_circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/fforward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/flag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/flickr2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_black_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_delete2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/folder_open2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/font.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/forbidden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/forward_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/globe1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/globe2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/globe_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/headphones.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/heart_circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/help_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/home2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/inbox1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/inbox2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/inbox3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/infinite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/infinite2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/info2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/info_plain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/info_plain2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/json.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/lab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/layout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/link1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/link2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/link_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/locate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/locate1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/locate2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/locate3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/locate4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/lock_closed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/lock_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/look.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/loop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/loop2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/loop_circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/magic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mail5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/maps.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/minus1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/minus2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/minus_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/minus_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/monitor1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/monitor2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/monitor3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/monitor4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/more2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/mouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/music1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/music2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/nodes1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/nodes2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/note1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/note2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/note3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/note_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/nuclear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/organize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/outbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/phone1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/phone2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/phone_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/phone_ring1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/phone_ring2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photo_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photo_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photos1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photos2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/photos4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/pictos-web.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/pictos-web.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/pictos-web.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/pictos-web.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/piechart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/play1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/play2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/play_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/play_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/podcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/power_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/power_socket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/print2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/quote1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/quote2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/quote_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/quote_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/quote_black3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/refresh1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/refresh2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/refresh3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/refresh5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/reply.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/replytoall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/resize_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rewind.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rss2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rss_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rss_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/rss_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/screens.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/search1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/search2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/search_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/servers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/settings_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/shield1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/shield2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/shop1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/shop2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/shuffle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_backforth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_leftright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_leftright2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_split.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_switch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sign_uturn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/spaces1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/spaces2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/speedometer1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/speedometer2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/speedometer_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/speedometer_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/stop1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/stop2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/sync.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tabbed_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tag_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/team.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/team1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/time_repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/trash2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/trash_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/tweak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/twitter1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/twitter2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/up1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/up2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/up_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/upload2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_business.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_fave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_list2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_remote1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_remove2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/user_send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/video_black1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/video_black2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/volume.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/volume_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/volume_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/volume_mute.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/volume_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/warning_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/warning_dotted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/wifi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/wifi2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/wifi3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/wifi4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pictos/window.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/pullarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/select_mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip2_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip2_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tip_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/togglebg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/togglemask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/togglethumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/togglethumbbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/togglethumbmask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/trackmask_outer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/development/MvcDesktop/modern/resources/images/tree/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic.jsonp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/sass/etc/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/sass/src/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/sass/src/view/main/Main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/sass/var/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/src/view/main/List.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classic/src/view/main/Main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern.jsonp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern/sass/etc/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern/sass/src/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern/sass/var/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern/src/view/main/List.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modern/src/view/main/Main.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sencha/app/codegen.json" afterPath="$PROJECT_DIR$/.sencha/app/codegen.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Application.js" afterPath="$PROJECT_DIR$/app/Application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/MvcDesktop/sass/MvcDesktop-all.scss" afterPath="$PROJECT_DIR$/build/temp/development/MvcDesktop/sass/MvcDesktop-all.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/MvcDesktop/sass/MvcDesktop-all.scss.tmp" afterPath="$PROJECT_DIR$/build/temp/development/MvcDesktop/sass/MvcDesktop-all.scss.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/MvcDesktop/slicer-temp/bootstrap.json" afterPath="$PROJECT_DIR$/build/temp/development/MvcDesktop/slicer-temp/bootstrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/MvcDesktop/slicer-temp/bootstrap.jsonp" afterPath="$PROJECT_DIR$/build/temp/development/MvcDesktop/slicer-temp/bootstrap.jsonp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Desktop.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/Desktop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="189" column="35" lean-forward="true" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/BaseController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1032">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Viewport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/TaskBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/TopBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wallpaper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/Wallpaper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/packages/local/common/src/desktop/PartnerProfile.js" />
+        <option value="$PROJECT_DIR$/packages/local/common/src/desktop/TopBar.js" />
+        <option value="$PROJECT_DIR$/app/controller/BaseController.js" />
+        <option value="$PROJECT_DIR$/app/Application.js" />
+        <option value="$PROJECT_DIR$/app/view/Viewport.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/packages/local/common/src/desktop/Desktop.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="640" />
+    <option name="height" value="346" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="extjs-mvc-desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="extjs-mvc-desktop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="extjs-mvc-desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="extjs-mvc-desktop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="extjs-mvc-desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="extjs-mvc-desktop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\projects\opensource\extjs-mvc-desktop\app\view" />
+      <recent name="I:\projects\opensource\extjs-mvc-desktop\app\controller" />
+      <recent name="I:\projects\opensource\extjs-mvc-desktop\packages\local\common\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="448b5b61-11ab-4ee4-acb5-0a4ea3f77d91" name="Default" comment="" />
+      <created>1543763551869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543763551869</updated>
+      <workItem from="1543763555658" duration="414000" />
+      <workItem from="1543764409168" duration="1932000" />
+      <workItem from="1544025172855" duration="3027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5373000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/PartnerProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/ShortcutModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/TaskBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/Wallpaper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/TopBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/BaseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/local/common/src/desktop/Desktop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="189" column="35" lean-forward="true" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'MvcDesktop' );
-$image-search-path: 'I:/projects/opensource/extjs-mvc-desktop/build/development/MvcDesktop/classic/resources';
+$image-search-path: 'I:/projects/opensource/extjs-mvc-desktop/build/development/MvcDesktop/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -908,12 +908,15 @@ $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
 $include-mvcdesktop-application: dynamic(true);;
-$include-mvcdesktop-store-personnel: dynamic(true);;
-$include-mvcdesktop-view-main-list: dynamic(true);;
-$include-mvcdesktop-view-main-main: dynamic(true);;
-$include-mvcdesktop-view-main-maincontroller: dynamic(true);;
-$include-mvcdesktop-view-main-mainmodel: dynamic(true);;
-$output-paths: ("path": "../../classic/resources", "shared": "../../resources");
+$include-mvcdesktop-controller-basecontroller: dynamic(true);;
+$include-mvcdesktop-view-viewport: dynamic(true);;
+$include-common-desktop-desktop: dynamic(true);;
+$include-common-desktop-shortcutmodel: dynamic(true);;
+$include-common-desktop-taskbar: dynamic(true);;
+$include-common-desktop-topbar: dynamic(true);;
+$include-common-desktop-trayclock: dynamic(true);;
+$include-common-desktop-wallpaper: dynamic(true);;
+$output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
 
@@ -972,6 +975,14 @@ $current-package: 'theme-triton';
 $current-resource-root: $theme-triton-resource-root;
 $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/etc/all';
+
+/* including package common */
+$common-resource-root: 'common' !default;
+$common-resource-path: 'common/images' !default;
+$current-package: 'common';
+$current-resource-root: $common-resource-root;
+$relative-image-path-for-uis: $common-resource-path;
+@import '../../../../../packages/local/common/sass/etc/all';
 
 /* including package MvcDesktop */
 $MvcDesktop-resource-root: '' !default;
@@ -1372,11 +1383,3 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/menu/Menu';
 @import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
-
-/* including package MvcDesktop */
-$MvcDesktop-resource-root: '' !default;
-$MvcDesktop-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $MvcDesktop-resource-root;
-$relative-image-path-for-uis: $MvcDesktop-resource-path;
-@import '../../../../../classic/sass/src/view/main/Main';

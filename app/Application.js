@@ -8,12 +8,20 @@ Ext.define('MvcDesktop.Application', {
 
     name: 'MvcDesktop',
 
+    requires: [
+        'Ext.container.Viewport'
+    ],
+
     quickTips: false,
     platformConfig: {
         desktop: {
             quickTips: true
         }
     },
+
+    controllers: [
+        'BaseController'
+    ],
 
     stores: [
         // TODO: add global / shared stores here
